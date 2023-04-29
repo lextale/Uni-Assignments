@@ -268,7 +268,10 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 model.fit(x=np.array(padded_sequences), y=np.array(one_hot_features), epochs=1500, batch_size=32)
 
 ###Evaluation
-
+Dataset in use:	 aug_intents.txt
+34/34 [==============================] - 1s 9ms/step - loss: 33.7023 - accuracy: 0.0103
+Test loss: 33.702335357666016
+Test accuracy: 0.010299625806510448
 
 ## Notes
 
