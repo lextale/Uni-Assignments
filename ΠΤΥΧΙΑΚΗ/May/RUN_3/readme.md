@@ -35,6 +35,9 @@ model.add(LSTM(100, dropout=0.2, recurrent_dropout=0.2, kernel_regularizer=l2(0.
 - ```validation_data_3.txt``` : Περιέχει το σύνολο των δεδομένων επικύρωσηw με τη μορφή (αριθμός_ερώτησης\n ερώτηση\n απάντηση)
 
 ## Βάση γνώσης
+1) Intents: https://www.kaggle.com/code/therealsampat/first-aid-recommendation-deep-learning-chatbot/notebook
+2) Απαντήσεις: https://www.ekab.gr/files/entypa/EKAB-protes-voithies.pdf
+Το dataset μας είναι ένα αρχείο txt που περιέχει ```αναγνωριστικό_πρόθεσης``` (0-266), την ```ερώτηση``` και την ανάλογη ```απάντηση```. Ως προθέσεις στο παρόν dataset θεωρούνται ερωτήσεις που περιέχουν την πρόθεση (Παράδειγμα: How to treat a heart attack) ή την πρόθεση χωρίς κείμενο (Παράδειγμα: heart attack). Οι προθέσεις εξήχθηκαν απο προϋπάρχον dataset που περιέχει προθέσεις, ερωτήσεις και απαντήσεις. Για λόγους εγκυρότητας οι απαντήσεις συντάχθηκαν χειροκίνητα σύμφωνα με το επίσημο Εγχειρίδιο Πρώτων Βοηθηών του ΕΚΑΒ.
 
 
 ## Jupyter Notebook
